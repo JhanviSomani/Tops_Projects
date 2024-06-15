@@ -91,6 +91,91 @@ etc.
 **Q-9**:How is Cell padding is different from Cell spacing?
 **Ans**:Cell padding is used to give space between the border of the table cell and its content. It is mainly meant for one cell.
 Cell spacing is used to give space between the two cells of the table. It is subjected to more than one cell.
+Examples: (1)cell padding:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          padding: 50px;
+        }
+        
+        </style>
+</head>
+<body>
+    <table border="5">
+        <tr>
+        <td colspan="3" align="center">Data table</td>
+        </tr>
+        <tr>
+             <th>Name</th>
+             <th>city</th>
+             <th>Age</th>
+        </tr>
+        <tr>
+             <th>suresh</th>
+             <th>Ahemadabad</th>
+             <th rowspan="2">23</th>
+        </tr>
+        <tr>
+             <th>Manoj</th>
+             <th>Ghaziabad</th>
+        </tr>
+   </table>   
+</body>
+</html>
+```
+
+Output:
+ ![alt text](Capture_2.JPG)
+
+(2) cell spacing:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        table {
+          border-spacing: 30px;
+        }
+        </style>
+</head>
+<body>
+    <table border="5">
+        <tr>
+        <td colspan="3" align="center">Data table</td>
+        </tr>
+        <tr>
+             <th>Name</th>
+             <th>city</th>
+             <th>Age</th>
+        </tr>
+        <tr>
+             <th>suresh</th>
+             <th>Ahemadabad</th>
+             <th rowspan="2">23</th>
+        </tr>
+        <tr>
+             <th>Manoj</th>
+             <th>Ghaziabad</th>
+        </tr>
+   </table>   
+</body>
+</html>
+```
+Output:
+
+![alt text](Capture_1.JPG)
 
 **Q-10**:How can we club two or more rows or columns into a single row or column in an HTML table.
 **Ans**:we can club two rows by using ```<rowspan>``` attribute and to club two column we use ```<colspan>``` attribute.
@@ -166,6 +251,90 @@ Output;
 **Q-13**:What is the use of an iframe tag?
 **Ans**:'iframe' tag is used to embedd another HTML page into current HTML document. It is used to load content from another site to our current page. It is used to embedd youtube videos and Google map contents.
 
+Example:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe program</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">This is my first iframe page</h1>
+    <iframe
+      src="https://en.wikipedia.org/wiki/HTML"
+      frameborder="1"
+      height="500px"
+      width="500px"
+      
+    ></iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59028.95731058957!2d71.01464627552386!3d22.37967437234408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959af201c8cab21%3A0xfe502e85ec1be5d3!2sRajkot%20(Hirasar)%20International%20Airport!5e0!3m2!1sen!2sin!4v1717385540929!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 1"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      frameborder="1"
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HD13eq_Pmp8?si=FqAeoXfQC3mqQsMb"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      >
+</iframe>
+  </body>
+</html>
+```
+output:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iframe program</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">This is my first iframe page</h1>
+    <iframe
+      src="https://en.wikipedia.org/wiki/HTML"
+      frameborder="1"
+      height="500px"
+      width="500px"
+      
+</iframe>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59028.95731058957!2d71.01464627552386!3d22.37967437234408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959af201c8cab21%3A0xfe502e85ec1be5d3!2sRajkot%20(Hirasar)%20International%20Airport!5e0!3m2!1sen!2sin!4v1717385540929!5m2!1sen!2sin"
+      width="600"
+      height="450"
+      style="border: 1"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      frameborder="1"
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HD13eq_Pmp8?si=FqAeoXfQC3mqQsMb"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      >
+</iframe>
+  </body>
+</html>
+
 **Q-14**:What is the use of span tag? Explain with example?
 **Ans**:```<span>```tag is used for inline grouping of the text or content of the document. It is also known as inline container. It is used to give markup, styling, color to the text or to the part of the text.
 E.g.
@@ -188,8 +357,17 @@ TGT is <span style="color: blue;"><b>The Grand Thakar</b></span>.The restaurant 
 **Ans**:**Normal link** means an unvisited link which appears blue color and underlined while in **Active links** if you give right or left click on the link whelter it is visited or unvisited it will appear red and the active link shows that browser is in process to load a new resource.
 
 **Q-17**:What are the different tags to seperate sections of text?
-**Ans**:```<p>, <br>, <hr>, <section>, <article>, <dl>, <dt>, <dd>.```
+**Ans**:```<p>, <br>, <hr>, <section>, <dl>, <dt>, <dd>.```
 
+```<br>``` tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.
+
+```<p>``` tag–This tag is used to write a paragraph of text. As it is the paragraph tag so it always starts from new line.
+
+```<hr>``` tag defines a thematic break in an HTML page. It is most often displayed as a horizontal rule that is used to separate content in an HTML page.
+
+```<Section>``` tag defines the section of documents such as chapters, headers, footers, or any other sections. The section tag divides the content into sections and subsections. It is a semantic element.
+
+```<dl>```tag is description list. It is enclodes by ```<dt>``` Description term and ```<dd>```Description data. ```<dl>``` displays element in definition form like dictionary.
 **Q-18**:What is SVG?
 **Ans**:SVG is Scalable Vector Graphics. It is Xml based markup language for describing 2D based vector graphics.
 SVG images can be searched, indexed, scripted, compressed and created and edited with anyb text editor or drawing software.
