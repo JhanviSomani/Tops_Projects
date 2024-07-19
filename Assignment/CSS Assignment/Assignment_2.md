@@ -10,7 +10,7 @@ Benefits of using CSS:
 (4)It simplifies the maintanance of website.
 (5)CSS is device friendly as it has responsive web design.
 
-**Q-2**: What are the disadvantages of CSS?
+**Q-2**:What are the disadvantages of CSS?
 
 **Ans**:CSS is a cascading style sheet which allows web designers to format and display their HTML documents.
 Disadvantages of CSS: 
