@@ -1,5 +1,6 @@
 # Assignment 1: WD-HTML
 **Q-1**:Are the HTML tags and elements the same thing?
+
 **Ans**: No, HTML tags and elements are not the same thing.  HTML tags are the part of Element. 
      HTML tags is used to give the structure to the document. there is two types of tags (1)opening tag (2)closing tag. 
      E.g.```<p>,<i>,<b>```.
@@ -7,19 +8,23 @@
      Example:``` <P> This is paragraph </p>```
 
 **Q-2**:What are tags and attributes in HTML?
+
 **Ans**:HTML tags is used to give the structure to the document. there is two types of tags (1)opening tag (2)closing tag. 
 E.g.```<p>,<i>,<b>```.
 HTML attributes are used to control the element behaviour,used to add additional information about element like behaviour and display of element.Attributes are always added in the starting tag. 
 E.g. src, href, class, etc.
 
 **Q-3**:What are Void elements?
+
 **Ans**:The element which has only starting tag is called void element. It does not have any closing tag. So, it is also called Self-closing tags. E.g. ```<br>, <hr>, <input>, <img>```, etc.
 
 **Q-4**:What are HTML entities?
+
 **Ans**:HTML entities is a piece of text("string") which starts with ampersand(&) sign and ends with semicolon. HTML entities are uesd to show or display some unseen or reserved characters for e.g. &copy; , &reg; , &euro;
 Examples: ``` &copy; , &reg; , &euro; ```.
 
 **Q-5**:What are different types of lists in HTML?
+
 **Ans**:There are two types of tlists in HTML (1)**Unordered list**(2)**Ordered list**
 (1)**Unordered list**: The list in which order does not matter or the list which do not have any particular sequence is called unordered list. It is dislayed with bullet points. It's syntax is ```<ul>```.
 E.g.
@@ -54,6 +59,7 @@ Output:
 </ol>
 
 **Q-6**:What is the 'class'attribute in HTML?
+
 **Ans**:Class attribute is used to select and access specific elements. It specifies one or more class names for an element.
 E.g.
 ```
@@ -67,9 +73,11 @@ Delhi
 Delhi is the capital of India.
 
 **Q-7**:What is the difference vetween the 'id' attribute and the 'class' attrribute of HTML elements?
+
 **Ans**:Difference between the 'id' attribute and 'class' attribute is that 'id' attribute must be used by only one HTML element and is unique and 'class' attribute can be used by multiple HTML elements.
 
 **Q-8**:What are the various formatting tags in HTML?
+
 **Ans**:Formatting tags are ```<b>, <i>, <strong>, <em>, <small>, <mark>, <del>, <sub>, <sup>, <abbr>, <code>, <q>, <blockquote>, <address>, etc.```
 E.g.
 ```<b>This text is bold</b>```- 
@@ -89,6 +97,7 @@ E.g.
 etc.
 
 **Q-9**:How is Cell padding is different from Cell spacing?
+
 **Ans**:Cell padding is used to give space between the border of the table cell and its content. It is mainly meant for one cell.
 Cell spacing is used to give space between the two cells of the table. It is subjected to more than one cell.
 Examples: (1)cell padding:
@@ -178,6 +187,7 @@ Output:
 ![alt text](Capture_1.JPG)
 
 **Q-10**:How can we club two or more rows or columns into a single row or column in an HTML table.
+
 **Ans**:we can club two rows by using ```<rowspan>``` attribute and to club two column we use ```<colspan>``` attribute.
 E.g.
 ```
@@ -226,6 +236,7 @@ Output:
 </table>
 
 **Q-11**:what is the difference between block-level element and inline element?
+
 **Ans**:
  | Block level Element | Inline Element |
 | ----------- | ----------- |
@@ -234,6 +245,7 @@ Output:
 |E.g. ```<h1>, <div>, <hr>, <table>, <article>, <form> etc.```| E.g. ```<p>, <i>, <b>, <a>, <span>, <img>, <input>, etc.```|
 
 **Q-12**:How to create a Hyperlink in HTML?
+
 **Ans**:A basic link can be created by putting content inside the ```<a>```anchor tag using the 'href' attribute known as hypertext reference.
 E.g. 
 ```
@@ -249,6 +261,7 @@ Output;
 </p>
 
 **Q-13**:What is the use of an iframe tag?
+
 **Ans**:'iframe' tag is used to embedd another HTML page into current HTML document. It is used to load content from another site to our current page. It is used to embedd youtube videos and Google map contents.
 
 Example:
@@ -295,47 +308,11 @@ Example:
 ```
 output:
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iframe program</title>
-  </head>
-  <body>
-    <h1 style="text-align: center;">This is my first iframe page</h1>
-    <iframe
-      src="https://en.wikipedia.org/wiki/HTML"
-      frameborder="1"
-      height="500px"
-      width="500px"
-      
-</iframe>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59028.95731058957!2d71.01464627552386!3d22.37967437234408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959af201c8cab21%3A0xfe502e85ec1be5d3!2sRajkot%20(Hirasar)%20International%20Airport!5e0!3m2!1sen!2sin!4v1717385540929!5m2!1sen!2sin"
-      width="600"
-      height="450"
-      style="border: 1"
-      allowfullscreen
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      frameborder="1"
-    ></iframe>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/HD13eq_Pmp8?si=FqAeoXfQC3mqQsMb"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-      >
-</iframe>
-  </body>
-</html>
+![alt text](capture_3.JPG)
+
 
 **Q-14**:What is the use of span tag? Explain with example?
+
 **Ans**:```<span>```tag is used for inline grouping of the text or content of the document. It is also known as inline container. It is used to give markup, styling, color to the text or to the part of the text.
 E.g.
 ```TGT is <span style="color: blue;"><b>The Grand Thakar</b></span>.The restaurant is near <span style="font-style: italic;">racecourse</span> road in rajkot city.```
@@ -343,6 +320,7 @@ Output:
 TGT is <span style="color: blue;"><b>The Grand Thakar</b></span>.The restaurant is near <span style="font-style: italic;">racecourse</span> road in rajkot city. 
 
 **Q-15**:How to insert a picture into a background image of a web page?
+
 **Ans15**:
 ```
 <html>
@@ -354,9 +332,11 @@ TGT is <span style="color: blue;"><b>The Grand Thakar</b></span>.The restaurant 
 </html>
 ```
 **Q-16**:How are active links different from normal links?
+
 **Ans**:**Normal link** means an unvisited link which appears blue color and underlined while in **Active links** if you give right or left click on the link whelter it is visited or unvisited it will appear red and the active link shows that browser is in process to load a new resource.
 
 **Q-17**:What are the different tags to seperate sections of text?
+
 **Ans**:```<p>, <br>, <hr>, <section>, <dl>, <dt>, <dd>.```
 
 ```<br>``` tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.
@@ -368,12 +348,15 @@ TGT is <span style="color: blue;"><b>The Grand Thakar</b></span>.The restaurant 
 ```<Section>``` tag defines the section of documents such as chapters, headers, footers, or any other sections. The section tag divides the content into sections and subsections. It is a semantic element.
 
 ```<dl>```tag is description list. It is enclodes by ```<dt>``` Description term and ```<dd>```Description data. ```<dl>``` displays element in definition form like dictionary.
+
 **Q-18**:What is SVG?
+
 **Ans**:SVG is Scalable Vector Graphics. It is Xml based markup language for describing 2D based vector graphics.
 SVG images can be searched, indexed, scripted, compressed and created and edited with anyb text editor or drawing software.
 SVG-vector format images can be rendered at any size without any loss of quality and can be localized by updating the text within them without the need of a graphical editor.
 
 **Q-19**:What is the difference between HTML and XHTML?
+
 **Ans**:
 |HTML|XHTML|
 |----|-----|
@@ -385,6 +368,7 @@ SVG-vector format images can be rendered at any size without any loss of quality
 |File extension should be .html or .htm|File extension should be .xhtml or .xht or .xml|
 
 **Q-20**:What are logical and physical tags in HTML?
+
 **Ans**:**(1)Physical tag:** It is used to provide visual appearance to the text.
 Physical tags are used to indicate that how specific characters are to be formatted or indicated using HTML tags. 
 Any physical style tag may contain any item allowed in text, including conventional text, images, line breaks, etc.
