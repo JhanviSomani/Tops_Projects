@@ -1,6 +1,7 @@
 # Assignment 2: CSS and CSS3
 
 **Q-1**:What are the benefits of using CSS?
+
 **Ans**:CSS is a cascading style sheet which allows web designers to format and display their HTML documents.
 Benefits of using CSS:
 (1) We can give styling to our HTML page by using CSS.
@@ -10,6 +11,7 @@ Benefits of using CSS:
 (5)CSS is device friendly as it has responsive web design.
 
 **Q-2**: What are the disadvantages of CSS?
+
 **Ans**:CSS is a cascading style sheet which allows web designers to format and display their HTML documents.
 Disadvantages of CSS: 
 (1)With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.
@@ -17,6 +19,7 @@ Disadvantages of CSS:
 (3)Cross browser issues.
 
 **Q-3**:What is the difference between CSS2 and CSS3?
+
 **Ans**:
 | CSS2 | CSS3 |
 |-------|-------|
@@ -29,6 +32,7 @@ Disadvantages of CSS:
 |It is not supported by all types of modern browsers. |It is Supported by all modern browsers.|
 
 **Q-4**:Name a few CSS style components.
+
 **Ans**:CSS consists of two components: (1) Properties (2) Values
 
 (1)**Properties**: They are identifiers that indicate which stylistic features we want to modify. For E.g. font-size, width, background-color.
@@ -47,6 +51,7 @@ p{
 ```
 
 **Q-5**:What do you understand by CSS opacity?
+
 **Ans**:It sets the opacity of an element. Opacity is the degree to which content behind an element is hidden.
 Opacity applies to the element as a whole, including its contents.
 **Syntax**: opacity:0.9;
@@ -90,6 +95,7 @@ Output:
 </html>
 
 **Q-6**:How can the background color of an element be changed? 
+
 **Ans**:We can change background color of an element by using syntax as:
 **background-color:color_name;**
 Example:
@@ -138,6 +144,7 @@ Output:
 </html>
 
 **Q-7**:How can image repetition of the backup be controlled?
+
 **Ans**:We can control the image repetition by using background-repeat property.
 **Syntax**:background-repeat: repeat | repeat-x | repeat-y | no-repeat | initial | inherit;
 Example:
@@ -177,6 +184,7 @@ Output:
 </html>
 
 **Q-8**:What is the use of the background-position property? 
+
 **Ans**:The background-position property sets the starting position of a background image.
 Values of background-position:
 (1)left top
@@ -228,6 +236,7 @@ Output:
 </html>
 
 **Q-9**:Which property controls the image scroll in the background? 
+
 **Ans**:Background-attachment property will control if the image will scroll in the background or not.
 **syntax**:background-attachment: scroll | fixed | local |
 
@@ -267,8 +276,7 @@ Output:
         background-attachment:fixed;
         background-repeat:repeat-y;
         background-size:cover;
-        
-    }
+        }
 </style>
 <body>
 <div class=para>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -279,6 +287,7 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </html>
 
 **Q-10**: Why should background and color be used as separate properties?
+
 **Ans**: Background and color are used as seperate properties because,
 **Background**
 Defines the background color or image of an element, which includes the total size of the element, including padding and border, but not the margin. Background properties can include images, gradients, and positioning, attachment, etc.
@@ -319,6 +328,7 @@ output:
 </html>
 
 **Q-11**:How to center block elements using CSS1?
+
 **Ans**:To center the block elements we have to use **Margin** property.
 By giving the value of margin as **auto** we can center the block elements.
 
@@ -377,9 +387,11 @@ output:
 </html>
 
 **Q-12**:How to maintain the CSS specifications?
+
 **Ans**:The CSS Specifications are maintained by the W3C (World wide web consortium).Almost every browser supports CSS, but there are some inconsistiences in the supported specifications version. Some browsers even have their own implementations of the specification.
 
 **Q-13**:What are the ways to integrate CSS as a web page?
+
 **Ans**:There are three ways to integrate CSS as a webpage.
 (1)Inline CSS
 (2)Internal CSS
@@ -454,16 +466,19 @@ Output:
 </body>
 
 **Q-14**:What is embedded style sheets?
+
 **Ans**:Embedded style sheet is also known as Internal CSS. It is a type of CSS that is added to an HTML document to define styles to the entire document.
 It is declared in the ```<head>``` element.  It is applied to the whole document rather than one element.
 It has drawback that it makes necessary to make changes on every page to apply them.
 
 **Q-15**:What are the external style sheets?
+
 **Ans**:An External style sheet is a seperate CSS file that can be used to apply rules to multiples web pages.
 A link of these external style sheet should be put in the link tag in the head section of the webpage.
 Multiple webpages can use the same link to access the stylesheet.
 
 **Q-16**:What are the advantages and disadvantages of using external style sheets?
+
 **Ans**:
 **Advantages of external style sheets**:
 (1)Improved maintainability and code organization.
@@ -475,6 +490,7 @@ Multiple webpages can use the same link to access the stylesheet.
 (3)Large-scale projects may face versioning and caching challenges when using external CSS.
 
 **Q-17**:What is the meaning of the CSS selector?
+
 **Ans**:CSS selectors are used to select the elements we want to style.
 There are amny different types of selectors:
 (1)tag selector
@@ -487,6 +503,7 @@ There are amny different types of selectors:
 (8)combinator selector,etc.
 
 **Q-18**:What are the media types allowed by CSS? 
+
 **Ans**:
 |Media type|Description|
 |----------|-----------|
@@ -496,6 +513,7 @@ There are amny different types of selectors:
 |speech|Designed for screen readers that read the content aloud.|
 
 **Q-19**:What is the rule set?  
+
 **Ans**:Each declaration block is preceded by one or more comma-separated selectors, which are conditions selecting some elements of the page. A selector list and an associated declarations block, together, are called a ruleset.
 E.g. 
 ```
@@ -505,6 +523,7 @@ header, p .intro{
 }
 ```
 **Q-20**:Create Layout:
+
 **Ans**:
 ```<!DOCTYPE html>
 <html lang="en">
