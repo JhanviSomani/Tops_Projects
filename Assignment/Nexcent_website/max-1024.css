@@ -1,0 +1,101 @@
+@media (max-width:1024px){
+    header #toggle{
+        display: none;
+    }
+    header .fa-solid{
+        display: none;
+    }
+    /* header */
+
+header {
+    padding: 20px 20px;
+  }
+header .wrapper{
+    display: flex;
+}
+  
+  /* #hero-section */
+  
+  #hero-section{
+    padding: 30px;
+  }
+  
+  /* #client-section */
+  
+  #client-section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: var(--primary-padding);
+  }
+  #client-section::before{
+      content: '';
+      height: 1px;
+      width: 25px;
+      background-color: rgb(155, 8, 65);
+      top: 10px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+  #client-section h1{
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: var(--primary-heading-color);
+  }
+  #client-section p{
+      margin-bottom: 15px;
+      color: var(--primary-text-color);
+  }
+  
+  #community-section{
+    padding: 30px;
+  }  
+  #community-section .cards{
+    gap: 20px;
+  }
+  #unseen-pixelgrade-section{
+    padding: 30px;
+  }
+  
+  /* #helping-local-section */
+  
+  #helping-local-section{
+    padding: 30px;
+  }
+  
+  /* #design1-section */
+  
+  #design1-section{
+    padding: 30px;
+    gap: 100px;
+  }
+  
+  #design2-section{
+    gap: 20px;
+  }
+  
+  /* #caring-section */
+  #caring-section{
+    padding: 30px;
+  }
+  #caring-section .cards{
+    gap: 20px;
+  }
+  #caring-section .cards .card1 .cont{
+    top: 150px;
+  }
+  #caring-section .cards .card2 .cont{
+    top: 150px;
+  }
+  #caring-section .cards .card3 .cont{
+    top: 150px;
+  }
+  
+  /* #CTA-section */
+  #CTA-section{
+    margin-top: 30px;
+  }
+  
+  
+}

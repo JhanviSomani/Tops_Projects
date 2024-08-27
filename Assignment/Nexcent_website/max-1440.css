@@ -1,0 +1,12 @@
+@media (min-width:1440px){
+    header #toggle{
+        display: none;
+    }
+    header .fa-solid{
+        display: none;
+    }
+    header .wrapper{
+        display: flex;
+        
+    }
+}
