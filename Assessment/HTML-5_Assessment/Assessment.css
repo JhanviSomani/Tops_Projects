@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: rgb(38, 97, 156);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* gap: 2rem; */
+    cursor: pointer;
+}
+
+nav .links a{
+    text-decoration: none;
+    /* background-color: black; */
+    padding:1rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Services{
+    padding:1rem 0rem; 
+}
+
+nav .links button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.btn-content{
+    display: none;
+    position: absolute;
+    top: 4.3rem;
+    background-color: rgb(38, 97, 156);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.btn-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+.btn-content .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-content .more i{
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+}
+.btn-content .more{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    display: flex;
+    
+}
+.btn-content a:hover{
+    background-color: rgb(53, 52, 167);
+}
+.btn-content .more:hover{
+    background-color: rgb(53, 52, 167);
+}
+.Services:hover .btn-content{
+    display: block;
+}
+.Services a:hover {
+    background-color: rgb(53, 52, 167);
+} 
+.Services:hover .more-content{
+    display: none;
+}
+.more-content{
+    display: block;
+    position: absolute;
+    left: 10.6rem;
+    top: 10.3rem;
+    background-color: rgb(38, 97, 156);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+.more:hover .more-content{
+    display: block;
+    
+}
+.Services i{
+    visibility: hidden;
+}
+.Services:hover i{
+    visibility: visible;
+}
+/* nav .links a:hover{
+    background-color: rgb(53, 52, 167);
+} */
